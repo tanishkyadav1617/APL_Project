@@ -1,0 +1,11 @@
+id,name,age,email,city,salary
+1,Alice Johnson,29,alice@example.com,New York,85000
+2,Bob Smith,34,bob.smith@corp.org,San Francisco,112000
+3,Carol White,41,carol.white@gmail.com,Chicago,67500
+4,David Lee,26,d.lee@startup.io,Austin,73000
+5,Eva Martinez,38,eva.m@enterprise.com,Seattle,98000
+6,Frank Brown,55,fbrown@legacy.net,Boston,145000
+7,Grace Kim,31,grace.kim@tech.co,Los Angeles,91000
+8,Hank Wilson,47,h.wilson@finance.org,Denver,103000
+9,Ivy Chen,23,ivy.chen@uni.edu,Portland,58000
+10,Jack Davis,62,j.davis@retired.com,Miami,189000

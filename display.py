@@ -68,9 +68,8 @@ BANNER = r"""
 def print_banner() -> None:
     """Print the application banner."""
     print(_c(_CYAN + _BOLD, BANNER))
-    title = "  APL Project — Smart Encryption Advisor & Engine"
+    title = "  Data Analysis and Cypher Toolkit"
     print(bold(title))
-    print(dim("  Analyse · Profile · Recommend · Encrypt · Decrypt"))
     print()
     print(_hr())
 
@@ -78,21 +77,19 @@ def print_banner() -> None:
 def print_section(title: str) -> None:
     """Print a labelled section divider."""
     print()
-    print(_hr("─", _BLUE))
-    print(bold(cyan(f"  ◆  {title}")))
-    print(_hr("─", _BLUE))
+    print(bold(cyan(f"  *  {title}  *")))
 
 
 def print_success(msg: str) -> None:
-    print(f"\n  {green('✔')}  {msg}")
+    print(f"\n  {green('[*]')}  {msg}")
 
 
 def print_warning(msg: str) -> None:
-    print(f"\n  {yellow('⚠')}  {yellow(msg)}")
+    print(f"\n  {yellow('[1]')}  {yellow(msg)}")
 
 
 def print_error(msg: str) -> None:
-    print(f"\n  {red('✖')}  {red(msg)}")
+    print(f"\n  {red('[x]')}  {red(msg)}")
 
 
 def print_info(label: str, value: str) -> None:
